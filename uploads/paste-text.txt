@@ -1,0 +1,178 @@
+Role: Senior UX/UI + AI Simulation Designer
+
+---
+
+EXTENSION: FACULTY DASHBOARD (INSTRUCTOR PAGE)
+
+This section expands the platform to include the instructor experience.
+
+The system enables a "Faculty Tracking Mode" where students can optionally allow their instructor to monitor their performance and receive AI-generated reports.
+
+Goal:
+Enhance clinical training by combining AI evaluation with human supervision.
+
+---
+
+FEATURE: STUDENT CONSENT (TRACKING ACTIVATION)
+
+Inside Student Page:
+
+Prompt:
+"Do you allow your instructor to track your performance and help you improve your clinical skills?"
+
+Options:
+
+* Allow Tracking ✅
+* Decline ❌
+
+IF Allow:
+
+* Activate Faculty Tracking Mode
+* Link student performance to instructor dashboard
+* Sync data with Blackboard Ultra
+
+---
+
+PAGE NAME:
+Faculty Clinical Performance Dashboard
+
+---
+
+SECTION 1: OVERVIEW PANEL
+
+Display:
+
+* List of students
+
+* Status indicators:
+  🟢 Good Performance
+  🟡 Needs Improvement
+  🔴 Critical Weakness
+
+* Number of attempts per student
+
+* Completion rate
+
+---
+
+SECTION 2: REAL-TIME ALERTS (PROACTIVE NOTIFICATIONS)
+
+System sends alerts to instructor when:
+
+* Student repeats same mistake
+* Critical step skipped (e.g., Hand Hygiene)
+* Performance below threshold
+
+Notification Example:
+
+"Alert: Student Ahmed has completed the venipuncture simulation 5 times.
+Repeated weakness detected in infection control (disinfection step)."
+
+---
+
+SECTION 3: STUDENT PERFORMANCE PROFILE
+
+When instructor clicks on a student:
+
+Show detailed report:
+
+* Attempts history
+* Time per attempt
+* Error patterns
+* Skill gaps
+
+Example:
+
+Weaknesses:
+
+* Missed hand hygiene
+* Incorrect needle angle
+
+Strengths:
+
+* Good patient communication
+* Correct vein selection
+
+---
+
+SECTION 4: AI RECOMMENDATIONS FOR INSTRUCTOR
+
+System suggests actions:
+
+* "Recommend in-person demonstration"
+* "Focus on infection control training"
+* "Repeat simulation module"
+
+Goal:
+Support instructor in targeted teaching
+
+---
+
+SECTION 5: CLINICAL INTERVENTION SUPPORT
+
+Instructor can:
+
+* Schedule in-person training session
+* Add notes on student performance
+* Assign additional practice
+
+Example Action:
+"Schedule lab session for Ahmed – focus on aseptic technique"
+
+---
+
+SECTION 6: REPORT INTEGRATION WITH BLACKBOARD ULTRA
+
+All reports are:
+
+* Automatically synced
+* Stored in student record
+
+Instructor can:
+
+* View reports inside Blackboard Ultra
+* Track progress over time
+* Export performance analytics
+
+---
+
+SECTION 7: VISUAL ANALYTICS DASHBOARD
+
+Display:
+
+* Performance trends (improving / declining)
+* Error frequency charts
+* Skill mastery level
+
+---
+
+UI/UX REQUIREMENTS
+
+* Clean dashboard layout
+* Color-coded alerts (Red / Yellow / Green)
+* Easy navigation between students
+* Clear data visualization
+* Minimal complexity (fast decision-making)
+
+---
+
+AI BEHAVIOR RULES
+
+* Detect repeated errors patterns
+* Trigger alerts automatically
+* Prioritize critical safety issues
+* Provide actionable recommendations (not just data)
+
+---
+
+FINAL OUTPUT
+
+* Instructor dashboard
+* Real-time monitoring system
+* AI-generated student reports
+* Blackboard Ultra integration
+* Support for in-person clinical intervention
+
+---
+
+END OF FACULTY PROMPT

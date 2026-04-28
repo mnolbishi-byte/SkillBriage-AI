@@ -1,0 +1,223 @@
+Role: Senior UX/UI + AI Simulation Designer
+
+PLATFORM OVERVIEW (IMPORTANT CONTEXT)
+
+You are designing a smart clinical education platform called:
+
+"PulseLink AI: Virtual Clinical Lab"
+
+This platform is NOT a standalone system.
+It is deeply integrated with Blackboard Ultra LMS.
+
+Core Idea:
+The platform enhances clinical (practical) skills for nursing students by transforming theoretical content into immersive training experiences.
+
+How it works:
+
+The system connects to Blackboard Ultra
+It reads course materials (PDF / Word / Procedures)
+It extracts clinical procedures as structured checklists
+It converts these checklists into:
+Interactive step-by-step simulations
+3D virtual clinical environments
+AR-guided real-world practice
+
+Goal:
+Bridge the gap between THEORY (Blackboard content) and PRACTICE (clinical skills)
+
+INTELLIGENT ENGINE BEHAVIOR
+
+Automatically detect steps from uploaded procedures
+Convert each step into an interactive task
+Map tools into 3D environment (needle, gloves, tubes, etc.)
+Assign validation rules for each step
+Provide real-time AI feedback
+Track performance and errors
+
+PROJECT TASK
+
+Design and build an interactive "Student Page" where:
+
+The student enters a virtual clinical lab
+Practices a real procedure (Venipuncture example)
+Receives real-time AI guidance
+Gets evaluated automatically
+Sends results back to Blackboard Ultra
+
+PAGE NAME:
+Student Virtual Clinical Lab Dashboard
+
+SECTION 1: SCENE ENTRY (3D / AR MODE)
+
+Create two main entry options:
+
+Enter 3D Virtual Lab
+Start AR Camera Mode
+
+Behavior:
+
+3D mode = full simulation environment
+AR mode = real-world training using camera
+
+Visual Elements:
+
+Medical lab (mannequin, bed, tools)
+Camera overlay UI
+Headphones icon
+AI assistant avatar
+
+SECTION 2: AI ASSISTANT INTRO
+
+Message:
+
+"Welcome to the Digital Venipuncture Lab.
+This procedure was automatically generated from your Blackboard course content.
+Let’s begin."
+
+Features:
+
+Voice + subtitles
+Friendly tone
+
+SECTION 3: STAGE 1 – PREPARATION
+
+Tasks:
+
+Student introduces themselves (voice input)
+Explains procedure
+
+AI:
+
+Validate communication
+
+System Check:
+
+Detect tools
+
+IF gloves missing:
+
+ORANGE alert
+Block next step
+
+SECTION 4: STAGE 2 – VEIN IDENTIFICATION
+
+AR Overlay:
+
+Highlight Antecubital Fossa
+Show vein options
+
+User Action:
+
+Select/touch vein
+
+AI Feedback:
+
+Confirm correct choice
+Suggest alternatives
+
+SECTION 5: CRITICAL ERROR DETECTION
+
+Trigger:
+Skipping disinfection
+
+Response:
+
+RED ALERT
+Stop action
+
+AI:
+"Critical error: Disinfection skipped.
+Risk of infection."
+
+System:
+
+Force correction
+Start countdown
+
+SECTION 6: NEEDLE INSERTION
+
+Instruction:
+15–30 degree angle
+
+Tracking:
+
+Detect angle
+
+IF incorrect:
+
+RED alert
+Show angle value
+
+AI:
+"Incorrect angle. Risk of hematoma."
+
+Virtual patient reacts
+
+IF corrected:
+
+GREEN confirmation
+
+SECTION 7: COMPLETION
+
+Detect:
+
+Blood flow
+
+AI:
+"Good job. Procedure successful."
+
+Reminder:
+"Apply label at bedside."
+
+SECTION 8: SMART ASSESSMENT
+
+Show:
+
+Strengths
+Weaknesses
+Errors:
+Hygiene
+Angle
+Score %
+
+SECTION 9: LMS INTEGRATION (BLACKBOARD ULTRA)
+
+Ask:
+"Send report to instructor?"
+
+If YES:
+Send to Blackboard Ultra
+
+Include:
+
+Attempts
+Errors
+Time
+Recommendations
+
+UI/UX RULES
+
+Clean medical design
+Color-coded alerts:
+Red = Critical
+Orange = Warning
+Green = Correct
+AI assistant always visible
+Step progress bar
+Minimal text
+
+AI RULES
+
+No gloves → block
+No disinfection → critical stop
+Wrong angle → correction
+Always explain WHY medically
+
+FINAL OUTPUT
+
+Interactive student page
+AI simulation engine
+Real-time feedback system
+Blackboard Ultra integration
+
+END OF PROMPT

@@ -1,0 +1,55 @@
+2026-04-16 09:13:43,308 - main - INFO - === Logging system initialized ===
+2026-04-16 09:13:43,308 - main - INFO - Log file: logs/app_20260416_091343.log
+2026-04-16 09:13:43,308 - main - INFO - Log level: INFO
+2026-04-16 09:13:43,308 - main - INFO - Timestamp: 20260416_091343
+2026-04-16 09:13:44,281 - main - INFO - Included router: routers.aihub.router
+2026-04-16 09:13:44,301 - main - INFO - Included router: routers.auth.router
+2026-04-16 09:13:44,309 - main - INFO - Included router: routers.health.router
+2026-04-16 09:13:44,364 - main - INFO - Included router: routers.instructor_notes.router
+2026-04-16 09:13:44,390 - main - INFO - Included router: routers.settings.router
+2026-04-16 09:13:44,443 - main - INFO - Included router: routers.simulation_attempts.router
+2026-04-16 09:13:44,484 - main - INFO - Included router: routers.storage.router
+2026-04-16 09:13:44,541 - main - INFO - Included router: routers.student_consent.router
+2026-04-16 09:13:44,558 - main - INFO - Included router: routers.user.router
+2026-04-16 09:13:44,560 - main - INFO - === Application startup initiated ===
+2026-04-16 09:13:44,560 - services.database - INFO - Ignore creating tables
+2026-04-16 09:13:44,561 - services.mock_data - INFO - Ignore initialize data
+2026-04-16 09:13:44,562 - services.auth - INFO - Ignore initialize admin
+2026-04-16 09:13:44,563 - main - INFO - === Application startup completed successfully ===
+2026-04-16 09:14:10,295 - core.config - DEBUG - Read dynamic attribute jwt_secret_key from environment variable JWT_SECRET_KEY
+2026-04-16 09:14:10,296 - core.config - DEBUG - Read dynamic attribute jwt_algorithm from environment variable JWT_ALGORITHM
+2026-04-16 09:14:10,308 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8
+2026-04-16 09:14:16,299 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8
+2026-04-16 09:18:05,181 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8
+2026-04-16 09:20:48,722 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8
+2026-04-16 09:22:05,316 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8
+2026-04-16 09:26:28,092 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8
+2026-04-16 09:27:16,225 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8
+2026-04-16 09:27:33,525 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8
+2026-04-16 09:28:01,269 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-04-16 09:28:01,270 - core.database - WARNING - Database session maker not available, attempting lazy initialization...
+2026-04-16 09:28:01,270 - core.database - WARNING - Database not initialized, attempting lazy initialization...
+2026-04-16 09:28:01,270 - core.database - INFO - Starting database initialization...
+2026-04-16 09:28:01,270 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-04-16 09:28:01,270 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-04-16 09:28:01,271 - core.database - INFO - Creating async database engine...
+2026-04-16 09:28:01,271 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-04-16 09:28:01,332 - core.database - INFO - Database engine created successfully
+2026-04-16 09:28:01,332 - core.database - INFO - Creating async session maker...
+2026-04-16 09:28:01,332 - core.database - INFO - Async session maker created successfully
+2026-04-16 09:28:01,333 - core.database - INFO - Database connection initialized successfully
+2026-04-16 09:28:01,333 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-04-16 09:28:01,333 - core.database - INFO - 🔧 Starting table creation...
+2026-04-16 09:28:02,847 - core.database - INFO - Tables initialized successfully
+2026-04-16 09:28:02,847 - core.database - DEBUG - [DB_OP] Create tables completed in 1.5147s
+2026-04-16 09:28:02,912 - core.database - INFO - Lazy database initialization completed successfully
+2026-04-16 09:28:02,913 - core.database - DEBUG - [DB_OP] Database session created successfully in 1.6431s
+2026-04-16 09:28:02,913 - routers.student_consent - DEBUG - Querying student_consents: query={"allow_tracking":true}, sort=None, skip=0, limit=100, fields=None
+2026-04-16 09:28:03,552 - routers.student_consent - DEBUG - Found 1 student_consents
+2026-04-16 09:28:03,553 - core.database - DEBUG - [DB_OP] Database session cleanup after 2.2836s
+2026-04-16 09:28:03,996 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-04-16 09:28:03,996 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-04-16 09:28:03,997 - routers.simulation_attempts - DEBUG - Querying simulation_attemptss: query={}, sort=-created_at, skip=0, limit=500, fields=None
+2026-04-16 09:28:04,512 - routers.simulation_attempts - DEBUG - Found 2 simulation_attemptss
+2026-04-16 09:28:04,513 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.5171s
+2026-04-16 09:31:04,480 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8

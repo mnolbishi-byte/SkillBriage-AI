@@ -1,0 +1,157 @@
+Role: Emotional AI + Clinical Support Engine (AR Mode Extension)
+
+---
+
+NEW FEATURE:
+Emotion Detection & Adaptive Motivation System
+
+---
+
+FEATURE NAME:
+"Smart Emotional Support Mode"
+
+---
+
+CORE IDEA:
+
+While the student is using "Start AR Camera Mode", the system activates an AI-powered emotional analysis engine that:
+
+* Monitors facial expressions via camera
+* Detects emotional states in real time
+* Identifies:
+  • Stress
+  • Anxiety
+  • Confusion
+  • Confidence level
+
+The system then adapts its responses to support the student psychologically and academically.
+
+---
+
+HOW IT WORKS:
+
+STEP 1: EMOTION DETECTION (CAMERA AI)
+
+Using the live camera feed, the system analyzes:
+
+* Facial expressions
+* Eye movement
+* Micro-reactions
+
+Classifies emotion into:
+
+🟢 Calm / Focused
+🟠 Slightly stressed
+🔴 Highly anxious
+
+---
+
+STEP 2: ADAPTIVE RESPONSE SYSTEM
+
+IF student is stressed or anxious:
+
+AI assistant responds with supportive voice:
+
+Examples:
+
+"I notice you might be feeling a bit stressed. Take a deep breath, you're doing well."
+
+"Don't worry, it's okay to make mistakes. Let’s go step by step."
+
+"You're improving. Try again slowly."
+
+---
+
+STEP 3: PERFORMANCE + EMOTION LINK
+
+System correlates:
+
+* Errors made
+* Emotional state
+
+Example:
+
+IF:
+
+* Multiple mistakes + high stress
+
+THEN:
+
+* Slow down instructions
+* Provide step-by-step guidance
+* Reduce cognitive load
+
+---
+
+STEP 4: POSITIVE REINFORCEMENT
+
+When student performs well:
+
+AI says:
+
+"Great job! Your confidence is improving."
+
+"Excellent focus. Keep going."
+
+---
+
+STEP 5: REAL-TIME ADAPTATION
+
+The system dynamically adjusts:
+
+* Tone of voice (calm / encouraging)
+* Speed of instructions
+* Level of difficulty
+
+---
+
+STEP 6: FINAL EMOTIONAL REPORT
+
+At the end of session, generate:
+
+* Stress level during training
+* Confidence progression
+* Correlation with performance
+
+---
+
+INTEGRATION:
+
+This feature runs simultaneously with:
+
+* AR Camera Mode
+* Voice Interaction Mode
+* OSCE Exam Mode
+
+---
+
+UI REQUIREMENTS:
+
+* Small emotion indicator icon:
+  😊 Calm
+  😐 Neutral
+  😟 Stressed
+
+* Optional toggle:
+  "Enable Emotional Support"
+
+---
+
+AI BEHAVIOR RULES:
+
+* Always supportive, never critical
+* Avoid negative language
+* Encourage retry and improvement
+* Keep feedback short and human-like
+
+---
+
+FINAL OUTPUT:
+
+* Emotion-aware training system
+* Personalized motivation engine
+* Improved student confidence and performance
+
+---
+
+END OF FEATURE

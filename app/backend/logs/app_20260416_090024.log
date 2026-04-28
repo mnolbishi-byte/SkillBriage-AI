@@ -1,0 +1,33 @@
+2026-04-16 09:00:24,699 - main - INFO - === Logging system initialized ===
+2026-04-16 09:00:24,699 - main - INFO - Log file: logs/app_20260416_090024.log
+2026-04-16 09:00:24,699 - main - INFO - Log level: INFO
+2026-04-16 09:00:24,699 - main - INFO - Timestamp: 20260416_090024
+2026-04-16 09:00:39,295 - main - INFO - Included router: routers.aihub.router
+2026-04-16 09:00:39,495 - main - INFO - Included router: routers.auth.router
+2026-04-16 09:00:39,522 - main - INFO - Included router: routers.health.router
+2026-04-16 09:00:39,607 - main - INFO - Included router: routers.instructor_notes.router
+2026-04-16 09:00:39,665 - main - INFO - Included router: routers.settings.router
+2026-04-16 09:00:39,843 - main - INFO - Included router: routers.simulation_attempts.router
+2026-04-16 09:00:39,959 - main - INFO - Included router: routers.storage.router
+2026-04-16 09:00:40,092 - main - INFO - Included router: routers.student_consent.router
+2026-04-16 09:00:40,244 - main - INFO - Included router: routers.user.router
+2026-04-16 09:00:40,247 - main - INFO - === Application startup initiated ===
+2026-04-16 09:00:40,247 - services.database - INFO - Ignore creating tables
+2026-04-16 09:00:40,247 - services.mock_data - INFO - Ignore initialize data
+2026-04-16 09:00:40,247 - services.auth - INFO - Ignore initialize admin
+2026-04-16 09:00:40,248 - main - INFO - === Application startup completed successfully ===
+2026-04-16 09:00:50,907 - core.config - DEBUG - Read dynamic attribute jwt_secret_key from environment variable JWT_SECRET_KEY
+2026-04-16 09:00:50,907 - core.config - DEBUG - Read dynamic attribute jwt_algorithm from environment variable JWT_ALGORITHM
+2026-04-16 09:00:51,196 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8
+2026-04-16 09:00:56,605 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8
+2026-04-16 09:01:33,566 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8
+2026-04-16 09:01:34,802 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8
+2026-04-16 09:01:48,206 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8
+2026-04-16 09:01:54,457 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8
+2026-04-16 09:02:29,176 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8
+2026-04-16 09:02:49,105 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8
+2026-04-16 09:02:49,806 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-04-16 09:02:56,122 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8
+2026-04-16 09:03:15,232 - services.database - DEBUG - [DB_OP] Starting database close
+2026-04-16 09:03:15,233 - services.database - INFO - Database connections closed
+2026-04-16 09:03:15,233 - services.database - DEBUG - [DB_OP] Database close completed in 0.0011s

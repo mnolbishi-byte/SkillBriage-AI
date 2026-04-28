@@ -1,0 +1,38 @@
+{
+    "title": "student_consent",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "allow_tracking": {
+            "type": "boolean",
+            "description": "Whether student allows instructor tracking"
+        },
+        "student_name": {
+            "type": "string",
+            "description": "Student display name"
+        },
+        "student_email": {
+            "type": "string",
+            "description": "Student email"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Timestamp of consent"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "allow_tracking",
+        "student_name",
+        "created_at"
+    ]
+}

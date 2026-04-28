@@ -1,0 +1,24 @@
+2026-04-16 06:51:12,238 - main - INFO - === Logging system initialized ===
+2026-04-16 06:51:12,238 - main - INFO - Log file: logs/app_20260416_065112.log
+2026-04-16 06:51:12,238 - main - INFO - Log level: INFO
+2026-04-16 06:51:12,238 - main - INFO - Timestamp: 20260416_065112
+2026-04-16 06:51:13,464 - main - INFO - Included router: routers.aihub.router
+2026-04-16 06:51:13,483 - main - INFO - Included router: routers.auth.router
+2026-04-16 06:51:13,486 - main - INFO - Included router: routers.health.router
+2026-04-16 06:51:13,535 - main - INFO - Included router: routers.instructor_notes.router
+2026-04-16 06:51:13,558 - main - INFO - Included router: routers.settings.router
+2026-04-16 06:51:13,608 - main - INFO - Included router: routers.simulation_attempts.router
+2026-04-16 06:51:13,645 - main - INFO - Included router: routers.storage.router
+2026-04-16 06:51:13,729 - main - INFO - Included router: routers.student_consent.router
+2026-04-16 06:51:13,744 - main - INFO - Included router: routers.user.router
+2026-04-16 06:51:13,746 - main - INFO - === Application startup initiated ===
+2026-04-16 06:51:13,746 - services.database - INFO - Ignore creating tables
+2026-04-16 06:51:13,746 - services.mock_data - INFO - Ignore initialize data
+2026-04-16 06:51:13,747 - services.auth - INFO - Ignore initialize admin
+2026-04-16 06:51:13,747 - main - INFO - === Application startup completed successfully ===
+2026-04-16 06:51:20,712 - core.config - DEBUG - Read dynamic attribute jwt_secret_key from environment variable JWT_SECRET_KEY
+2026-04-16 06:51:20,712 - core.config - DEBUG - Read dynamic attribute jwt_algorithm from environment variable JWT_ALGORITHM
+2026-04-16 06:51:20,726 - core.auth - DEBUG - Authentication token validated for user hash: 16c59aa8
+2026-04-16 06:51:29,111 - services.database - DEBUG - [DB_OP] Starting database close
+2026-04-16 06:51:29,112 - services.database - INFO - Database connections closed
+2026-04-16 06:51:29,112 - services.database - DEBUG - [DB_OP] Database close completed in 0.0010s

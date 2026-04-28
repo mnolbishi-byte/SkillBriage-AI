@@ -1,0 +1,39 @@
+{
+    "title": "instructor_notes",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "Instructor User ID"
+        },
+        "student_user_id": {
+            "type": "string",
+            "description": "Student User ID this note is about"
+        },
+        "note_text": {
+            "type": "string",
+            "description": "Note content"
+        },
+        "note_type": {
+            "type": "string",
+            "description": "Type: general, intervention, assignment"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "student_user_id",
+        "note_text",
+        "note_type",
+        "created_at"
+    ]
+}

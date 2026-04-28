@@ -1,0 +1,54 @@
+{
+    "title": "simulation_attempts",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "score": {
+            "type": "integer",
+            "description": "Final score (0-100)"
+        },
+        "grade": {
+            "type": "string",
+            "description": "Letter grade (A, B, C, D)"
+        },
+        "errors_count": {
+            "type": "integer",
+            "description": "Number of errors made"
+        },
+        "errors_list": {
+            "type": "string",
+            "description": "JSON string of error descriptions"
+        },
+        "duration_seconds": {
+            "type": "integer",
+            "description": "Duration of simulation in seconds"
+        },
+        "procedure_type": {
+            "type": "string",
+            "description": "Type of procedure (e.g. venipuncture)"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Timestamp of the attempt"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "score",
+        "grade",
+        "errors_count",
+        "errors_list",
+        "duration_seconds",
+        "procedure_type",
+        "created_at"
+    ]
+}

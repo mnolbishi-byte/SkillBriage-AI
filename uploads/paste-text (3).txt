@@ -1,0 +1,208 @@
+Role: AR Clinical Simulation Engine
+
+---
+
+FEATURE NAME:
+Start AR Camera Mode (Live Clinical Training)
+
+---
+
+ENTRY BEHAVIOR (IMPORTANT)
+
+When the user clicks:
+"Start AR Camera Mode"
+
+The system MUST offer two options:
+
+1. 📷 "Open Live Camera Training"
+
+   * Activates real camera view
+   * Student practices on mannequin or real setup
+
+2. 🧪 "Enter AR Guided Simulation"
+
+   * Opens augmented reality overlay
+   * Virtual clinical environment over real world
+
+---
+
+SCENE DESCRIPTION (LIVE EXPERIENCE)
+
+The student:
+
+* Wears headphones 🎧
+* Opens camera 📷
+* Faces either:
+
+  * A physical mannequin
+  * OR empty real space with AR overlay
+
+AI Assistant activates immediately:
+
+* Voice guidance + subtitles
+* Calm clinical tone
+
+---
+
+STAGE 1: PREPARATION (Supplies & Patient Info)
+
+AI Assistant:
+
+"Welcome to the Digital Venipuncture Lab.
+The system has extracted clinical steps from your Fundamentals of Nursing course via Blackboard Ultra.
+Let’s begin."
+
+Instruction:
+"Introduce yourself to the patient and explain the procedure."
+
+Student Action:
+
+* Speak to camera (voice input)
+
+AI Response:
+"Good. Communication detected."
+
+SYSTEM CHECK (Camera AI):
+
+* Detect gloves
+* Detect instruments (needle, tubes)
+
+IF gloves NOT detected:
+
+* Show ORANGE blinking glove icon 🟠
+* Block progression
+* Voice warning:
+
+"You must wear gloves before continuing."
+
+---
+
+STAGE 2: VEIN IDENTIFICATION (AR MODE)
+
+AI Overlay activates:
+
+* Highlight Antecubital Fossa region on arm/mannequin
+* Show vein mapping (Cephalic / Basilic)
+
+AI Instruction:
+"Identify the correct vein area."
+
+Student Action:
+
+* Touch / point / select area
+
+AI Feedback:
+
+* Correct → confirmation message
+* Incorrect → explanation + retry
+
+Example:
+"Good. Cephalic vein is a suitable alternative."
+
+---
+
+STAGE 3: CRITICAL ERROR DETECTION (RED ALERT SYSTEM)
+
+Trigger:
+Student attempts injection BEFORE disinfection
+
+SYSTEM RESPONSE:
+
+* RED SCREEN ALERT ⚠️
+* Audio warning tone
+
+AI Message:
+"STOP! Critical Error Detected.
+Disinfection step was skipped."
+
+Medical Explanation:
+"This increases risk of infection."
+
+SYSTEM ACTION:
+
+* Force student to perform disinfection
+* Start 60-second countdown timer ⏱️
+
+---
+
+STAGE 4: NEEDLE INSERTION (PRECISION AI)
+
+Instruction:
+"Insert needle at 15–30 degree angle."
+
+Camera AI tracks:
+
+* Hand movement
+* Needle angle
+
+IF angle = 45°:
+
+* RED indicator
+* Show angle value
+
+AI Message:
+"Incorrect angle (45°).
+Risk of hematoma."
+
+Virtual patient voice:
+"Ouch… I feel pain!"
+
+IF corrected:
+
+* Turn GREEN indicator
+* AI confirms:
+
+"Perfect angle (20°). Continue."
+
+---
+
+STAGE 5: COMPLETION & BLOOD FLOW DETECTION
+
+System detects:
+
+* Blood flow into tube
+
+AI Message:
+"Procedure successful. Well done."
+
+Reminder:
+"Label the sample immediately at bedside."
+
+---
+
+FINAL STAGE: SMART ASSESSMENT
+
+Display:
+
+* Performance score
+* Strengths
+* Weaknesses:
+  • Hand hygiene
+  • Needle angle
+* Error timeline
+
+---
+
+FACULTY LOOP (OPTIONAL)
+
+Prompt:
+"Send performance report to instructor?"
+
+IF YES:
+
+* Sync report with Blackboard Ultra
+* Store attempt in student record
+
+---
+
+CORE EXPERIENCE RULES
+
+* AR mode = real-time interaction with camera
+* Always give instant feedback
+* Block unsafe steps
+* Explain medical reasoning briefly
+* Maintain supportive tone
+
+---
+
+END OF AR CAMERA MODE PROMPT
